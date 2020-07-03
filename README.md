@@ -1,2 +1,5 @@
-# wes-bos-beginner-javascript
-Workthrough of Wes Bos' Beginner JavaScript class. 
+# Beginner JavaScript course by Wes Bos
+
+Workthrough of Wes Bos' Beginner JavaScript class.
+Starting with very little experience.
+
