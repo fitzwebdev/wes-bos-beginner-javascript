@@ -33,3 +33,13 @@ const inchToCM = inches => inches * 2.54;
 // }
 
 const makeABaby = (first, last) => ({ name: `${first} ${last}`, age: 0 });
+
+
+//click callback
+const button = document.querySelector('.clickMe');
+
+function handleClick() {
+    console.log('Great Clicking!!');
+}
+
+button.addEventListener('click', handleClick);
