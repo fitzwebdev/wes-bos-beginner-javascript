@@ -32,4 +32,4 @@ const inchToCM = inches => inches * 2.54;
 //     return baby;
 // }
 
-const makeABaby = (first, last) =>  ({ name: `${first} ${last}`, age: 0 })
+const makeABaby = (first, last) => ({ name: `${first} ${last}`, age: 0 });
