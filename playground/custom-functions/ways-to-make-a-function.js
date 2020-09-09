@@ -13,29 +13,12 @@
 // };
 
 // Arrow Functions
-const inchToCM = inches => inches * 2.54;
 
-// function add(a, b = 3) {
-//   const total = a + b;
-//   return total;
-// }
+// function inchToCM(inches) {
+  const cm = inches * 2.54;
+  return cm;
+}
 
-// const add = (a, b = 3) => a + b;
-
-// returning an object
-
-// function makeABaby(first, last) {
-//     const baby = {
-//         name: `${first} ${last}`,
-//         age: 0
-//     }
-//     return baby;
-// }
-
-const makeABaby = (first, last) => ({ name: `${first} ${last}`, age: 0 });
-
-// click callback
-const button = document.querySelector('.clickMe');
 
 function handleClick() {
   console.log('Great Clicking!!');
